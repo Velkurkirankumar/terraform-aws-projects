@@ -1,10 +1,10 @@
-# Terraform AWS Projects 🌐🚀
+# Terraform AWS Projects
 
 This repository contains multiple **Terraform-based infrastructure projects** built for AWS. These projects demonstrate core Infrastructure-as-Code (IaC) concepts using **Terraform**, and span across **networking**, **compute**, **S3**, and **modular infrastructure** design.
 
 ---
 
-## 🗂️ Projects Included
+## Projects Included
 
 ### 1. `activity1/` - VPC and Networking
 - Builds a VPC with subnets, internet gateway, and routing
@@ -25,7 +25,7 @@ This repository contains multiple **Terraform-based infrastructure projects** bu
 
 ---
 
-## 🔧 Tools Required
+## Tools Required
 
 - [Terraform](https://developer.hashicorp.com/terraform/downloads) v1.x
 - AWS CLI with IAM access configured
@@ -33,7 +33,7 @@ This repository contains multiple **Terraform-based infrastructure projects** bu
 
 ---
 
-## 🧪 How to Run Any Project
+## How to Run Any Project
 
 ### Step 1: Go to the project folder
 ```cd activity2```
@@ -58,3 +58,18 @@ This repository contains multiple **Terraform-based infrastructure projects** bu
 #### You can also destroy the QA setup similarly:
 ```terraform destroy -var-file="qa.tfvars"```
 
+## Folder Structure Overview
+
+pgsql
+```
+terraform-aws-projects/
+├── activity1/
+├── activity2/
+│   ├── dev.tfvars
+│   ├── qa.tfvars
+│   ├── nginx.sh
+│   ├── index.html
+├── s3/
+├── using_modules_community/
+└── README.md
+```
